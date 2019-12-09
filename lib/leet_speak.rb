@@ -6,8 +6,8 @@ def leet_speak(words)
       array.push("3")
     elsif (letter === "o")
       array.push("0")
-    # elsif (x % 5 === 0)
-    #   array.push("pong")
+    elsif (letter === "I")
+      array.push("1")
     # else
     #   array.push(x)
     end

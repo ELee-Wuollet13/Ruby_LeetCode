@@ -12,3 +12,9 @@ describe('leet_speak') do
     expect(leet_speak("o")).to(eq(["0"]))
   end
 end
+
+describe('leet_speak') do
+  it("The letter I should be replaced with '1'") do
+    expect(leet_speak("I")).to(eq(["2"]))
+  end
+end
