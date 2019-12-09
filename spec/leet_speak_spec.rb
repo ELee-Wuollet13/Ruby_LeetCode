@@ -9,6 +9,6 @@ end
 
 describe('leet_speak') do
   it("The letter o should be replaced with '0'") do
-    expect(leet_speak("o")).to(eq(["1"]))
+    expect(leet_speak("o")).to(eq(["0"]))
   end
 end
