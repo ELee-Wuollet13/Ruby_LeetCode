@@ -19,8 +19,8 @@ describe('leet_speak') do
   end
 end
 
-# describe('leet_speak') do
-#   it("The letter s should be replaced with 'z' except at the beginning of the word") do
-#     expect(leet_speak("sass")).to(eq(["sazz"]))
-#   end
-# end
+describe('leet_speak') do
+  it("The letter s should be replaced with 'z' except at the beginning of the word") do
+    expect(leet_speak("sass")).to(eq("sazz"))
+  end
+end
